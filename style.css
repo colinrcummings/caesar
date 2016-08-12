@@ -68,7 +68,11 @@ text-align: center;
   color: #8a8a8a;
   text-decoration: none;
 }
-.see-the-code:hover {
+.see-the-code:hover,
+.see-the-code:focus {
   color: #333;
   text-decoration: none;
+}
+.see-the-code i {
+  display: block;
 }

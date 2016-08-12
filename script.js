@@ -119,7 +119,7 @@ var App = React.createClass({
               <i
                 className="fa fa-file-code-o"
               ></i>
-              <p>Code</p>
+              <span>Code</span>
             </a>
           </div>
         </div>
