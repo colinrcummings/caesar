@@ -62,3 +62,13 @@ text-align: center;
 .btn-group {
   margin-top: 15px;
 }
+
+/* footer */
+.see-the-code {
+  color: #8a8a8a;
+  text-decoration: none;
+}
+.see-the-code:hover {
+  color: #333;
+  text-decoration: none;
+}

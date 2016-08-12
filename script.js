@@ -66,11 +66,12 @@ var App = React.createClass({
             <a
               className="question-container inline"
               href="https://en.wikipedia.org/wiki/Caesar_cipher"
-              target="_blank">
-                <i
-                  className="fa fa-question-circle"
-                  title="About the Caesar Cipher"
-                ></i>
+              target="_blank"
+            >
+              <i
+                className="fa fa-question-circle"
+                title="About the Caesar Cipher"
+              ></i>
             </a>
             <hr />
           </div>
@@ -106,6 +107,22 @@ var App = React.createClass({
             </div>
           </div>
         }
+        <div className="row">
+          <div className="col-md-12">
+            <hr style={{ marginTop: '30px' }}/>
+            <a
+              className="see-the-code"
+              href="https://github.com/colinrcummings/caesar/blob/master/script.js#L43"
+              target="_blank"
+              title="See the code on Github"
+            >
+              <i
+                className="fa fa-file-code-o"
+              ></i>
+              <p>Code</p>
+            </a>
+          </div>
+        </div>
       </div>
     );
   }
