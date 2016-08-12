@@ -114,7 +114,7 @@ var App = React.createClass({
               className="see-the-code"
               href="https://github.com/colinrcummings/caesar/blob/master/script.js#L43"
               target="_blank"
-              title="See the code on Github"
+              title="See the code on GitHub"
             >
               <i
                 className="fa fa-file-code-o"
